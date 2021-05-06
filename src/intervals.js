@@ -135,3 +135,4 @@ function getKeyByValue(object, value) {
                                                                directionIdentification])
     })
 
+    
