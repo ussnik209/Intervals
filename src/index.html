@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intervals</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="intervals.js"></script>
+</head>
+<body>
+    <div id="interval_construction">
+        <ul>
+            <li><h3>Построение интервала</h3></li>
+            <li><label for="intervalName">Название интервала</label></li>
+            <li><input type="text" name="" id="intervalName" value="m2"></li>
+            <li><label for="firstNoteConstruct">Первая нота интервала</label></li>
+            <li><input type="text" name="" id="firstNoteConstruct" value="C"></li>
+            <li><label for="directionConstruct">Направление построения интервала</label></li>
+            <li><input type="text" name="" id="directionConstruct" value="asc"></li>
+            <li><input type="button" name="" id="findNoteButton" value="Найти интервальную ноту"></li>
+            <li><p id="intervalNote">Измените значения полей по умолчанию, если необходимо, и нажмите кнопку "Найти интервальную ноту"</p></li>
+        </ul>
+    </div>
+    <div id="interval identification">
+        <ul>
+            <li><h3>Нахождение интернала</h3></li>
+            <li><label for="firstNoteIdentification">Первая нота интервала</label></li>
+            <li><input type="text" name="" id="firstNoteIdentification" value="G#"></li>
+            <li><label for="secondNoteIdentification">Вторая нота интервала</label></li>
+            <li><input type="text" name="" id="secondNoteIdentification" value="D#"></li>
+            <li><label for="directionIdentification">Направление интервала</label></li>
+            <li><input type="text" name="" id="directionIdentification" value="dsc"></li>
+            <li><input type="button" name="" id="findIntervalButton" value="Найти интервал"></li>
+            <li><p id="intervalNameOutput">Измените значения полей по умолчанию, если необходимо, и нажмите кнопку "Найти интервал"</p></li>
+        </ul>
+    </div>
+</body>
+</html>
